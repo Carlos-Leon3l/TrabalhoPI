@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo {
+    display: flex;
+    height: 80px;
+    
+    justify-content: center;
+    padding: 0;
+    
+
+    
+}
+.menu {
+   
+    text-align: center;
+    padding-top: 10px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    font-size: 23px;
+    
+}
+.imagemfundoinicio{ 
+    width: 100%;
+    overflow: hidden;
+}
+.backgroundinicio {
+    background-image: url(imagens/background-header.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    
+    background-size: cover;   
+    padding: 0;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.textoimageminicio {
+    color: white;
+    padding: 20px;
+    
+}
+.textoimageminicio h2 {
+    background-color: #ffc800;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border: 2px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.textoimageminicio h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+.textoimageminicio p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin: 20px;
+    
+
+}
+
+.logo2 {
+    margin-top: 30px; /* Mantenha algum espaço acima */
+    display: flex; /* Permite usar o flexbox */
+    justify-content: center; /* Centraliza a logo horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.logo2 img {
+    height: 200px; /* Ajustar a altura da logo conforme necessário */
+    margin-right: 200px;
+}
+.faixaverde {
+    
+    justify-content: space-between; /* Espaça os itens igualmente */
+    padding: 1px;
+    border-radius: 20px;
+    width: 100%; /* Preenche toda a largura da tela */
+    
+    
+     /* Inclui o padding no cálculo do tamanho */
+}
+
+.item {
+    flex-grow: 1;
+    text-align: center; /* Centraliza o texto e o número dentro de cada coluna */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.item p {
+    font-size: 2rem; /* Tamanho dos números */
+    margin: 0; /* Remove margens externas */
+}
+
+.item span {
+    font-size: 1.5rem; /* Tamanho das descrições abaixo dos números */
+    display: block;
+    margin-top: 5px; /* Adiciona espaçamento entre número e descrição */
+}
+.faixaverde2{
+    display: flex;
+    justify-content: space-between; /* Espaça os itens igualmente */
+    background-image: linear-gradient(180deg, #389B2FC7 0%, #8DCB8B 100%);
+    padding: 20px ;
+    border-radius: 20px;
+    width: auto;
+    align-items: center;
+    box-sizing: border-box;
+}   
+.texto-e-caixas {
+    display: flex;
+    justify-content: space-between; /* Espaça os parágrafos e as caixas */
+    padding: 20px; /* Espaçamento em volta da seção */
+}
+
+.paragrafos {
+    flex: 2; /* Ocupa mais espaço em relação às caixas */
+    margin-right: 20px; /* Espaçamento entre parágrafos e caixas */
+}
+.paragrafos p {
+    margin: 40px;
+    
+}
+
+.caixas {
+    flex: 1; /* Ocupa menos espaço */
+    display: flex;
+    flex-direction: column; /* Organiza as caixas em coluna */
+}
+
+.logo-caixa, .foto-caixa {
+    margin-bottom: 20px; /* Espaçamento entre as caixas */
+}
+
+.logo-caixa img, .foto-caixa img {
+    max-width: 100%; /* Faz com que a imagem não exceda o tamanho da caixa */
+    height: auto; /* Mantém a proporção */
+}
+
+.linha-secao {
+    display: flex; /* Usando flexbox para alinhar os itens */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 20px 0; /* Espaçamento externo */
+}
+
+.linha-superior,
+.linha-inferior {
+    flex-grow: 1; /* Faz a linha ocupar o espaço disponível */
+    height: 2px; /* Altura da linha */
+    background-color: #ffc800; /* Cor da linha */
+    margin: 0 10px; /* Espaçamento lateral entre a linha e a palavra */
+}
+
+.palavra-central {
+    font-size: 24px; /* Tamanho da palavra central */
+    color: #ffc800; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+    white-space: nowrap; /* Impede a quebra de linha na palavra */
+}
+
+/* @media screen and (max-width: 1020px) {
+    /*cabecalho
+    .menu {
+        display: none;
+    }
+}*/
+.natureeco {
+    background-image: url(imagens/natureeco.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.textonature {
+    font-size: 40px;
+    color: #050500;
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Adiciona margem em cima e embaixo do texto */
+}
+
+.nature {
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+
+.texto2nature {
+    font-size: 16px; 
+    text-align: center;  
+    padding-top: 10%;
+    margin-right: 200px;
+    color: #151718;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina1, .pagina2, .pagina3, .pagina4 {
+    width: 200px;
+    height: 210px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: width 0.5s;
+    display: flex;
+    flex-direction: row;
+    background-color: #8DCB8B;
+    background-position: 30%;
+    background-size: cover;
+    position: relative;
+}
+
+/* Esconde o texto inicialmente */
+.descricao {
+    display: none;
+    padding: 10px;
+    background-color: #8DCB8B; /* Fundo semitransparente para destacar o texto */
+    position: absolute;
+    top: 0;
+    left: 170px;
+    width: 350px;
+    height: 100px; /* Preenche a altura da caixa */
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+/* Mostra o texto ao passar o mouse sobre a página */
+.pagina1:hover .descricao {
+    display: flex;
+}
+
+.pagina1:hover {
+    width: 550px;
+}
+
+.pagina2, .pagina3, .pagina4 {
+    background-color: #8DCB8B; /* Exemplo de cores diferentes para os outros blocos */
+}
+
+.pagina2:hover, .pagina3:hover, .pagina4:hover {
+    width: 500px; /* Expande ao passar o mouse */
+}
+.botao-link {
+    display: inline-block; /* Permite que o botão tenha tamanho automático */
+    margin-top: 10px; /* Espaço acima do botão */
+    padding: 5px 10px; /* Adiciona um pequeno preenchimento */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.botao-link:hover {
+    background-color: #84d488; /* Muda a cor ao passar o mouse */
+}
+.pagina1 img {
+    margin-left: 25px;
+    
+}
+
+.pagina2:hover .descricao2 {
+    display: flex;
+}
+.pagina2 img{
+    margin-left: 10px;
+}
+
+.pagina2:hover {
+    width: 580px;
+}
+.descricao2 {
+    display: none;
+    padding: 10px;
+    background-color: #8DCB8B; /* Fundo semitransparente para destacar o texto */
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 350px;
+    height: 100px; /* Preenche a altura da caixa */
+    border-radius: 10px;
+    flex-direction: column;
+}
+.pagina3:hover .descricao3 {
+    display: flex;
+}
+.pagina3:hover {
+    width: 550px;
+}
+.descricao3 {
+    display: none;
+    padding: 10px;
+    background-color: #8DCB8B; /* Fundo semitransparente para destacar o texto */
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 310px;
+    height: 100px; /* Preenche a altura da caixa */
+    border-radius: 10px;
+    flex-direction: column;
+}
+.pagina4:hover .descricao4 {
+    display: flex;
+}
+.pagina4:hover {
+    width: 550px;
+}
+.descricao4 {
+    display: none;
+    padding: 10px;
+    background-color: #8DCB8B; /* Fundo semitransparente para destacar o texto */
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 310px;
+    height: 100px; /* Preenche a altura da caixa */
+    border-radius: 10px;
+    flex-direction: column;
+}
+.quem-somos-comeco {
+    background-image: url(imagens/quem-somos-começo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    min-height: 500px;
+    margin-top: 10px;
+    
+    
+}
+.comeco-qs {
+    margin-top: 0px;
+}
+.comeco-qs h2 {
+    color: #84d488;
+    font-weight: bold;
+}
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.imagem-texto img {
+    width: 100%; 
+    max-width: 300px;/* Define a largura da imagem */
+    height: auto;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+
+.texto-direita, .texto-esquerda {
+    width: 100%; /* Define a largura do texto */
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto-direita {
+    text-align: left;
+}
+
+.texto-esquerda {
+    text-align: right;
+}
+
+.background2-quemsomos {
+    height: 0px; /* Ajuste conforme a altura desejada */
+    background-color: #d1d1d1;
+}
+.fundoqs2 {
+    background-image: url(imagens/fundo-quem-somos.png);
+}   
+.local {
+    display: flex; /* Alinha a imagem e o texto horizontalmente */
+    justify-content: space-between; /* Espaço entre a imagem e o texto */
+    align-items: center; /* Centraliza a imagem e o texto verticalmente */
+    gap: 2rem; /* Espaço entre a imagem e o texto */
+    margin-left: 100px;
+}
+.local h2 {
+    color: #84d488;
+    font-weight: bold;
+}
+
+.bussola img {
+    max-width: 100%; /* Faz a imagem se ajustar ao container */
+    height: auto;
+    width: 200px; /* Ajuste conforme necessário */
+}
+
+.texto-local {
+    flex: 1; /* O texto ocupará o restante do espaço */
+    padding: 0 20px; /* Espaçamento interno ao redor do texto */
+}
+
+.onde-estamos {
+    position: relative;
+    width: 100%;
+    height: auto; /* Changed from fixed height */
+    overflow: visible; /* Changed from hidden */
+    
+}
+.pais {
+    width: 100%;
+    height: 100%;
+    display: block;
+    width: 300px;
+    display: flex;
+    margin-left: 43%;
+}
+
+@media (max-width: 768px) {
+    .imagem-texto {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center;
+    }
+
+    .imagem-texto img {
+        margin: 0; /* Remove margem lateral */
+        width: 100%; /* Faz a imagem ocupar a largura total */
+    }
+
+    .local {
+        flex-direction: column; /* Muda para coluna em telas menores */
+        align-items: center;
+    }
+}
+.textos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.textos.show {
+    opacity: 1;
+}
+
+.frase {
+    background: rgba(127, 218, 108, 0.7);
+    padding: 10px;
+    margin: 5px 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    width: 200px;
+    margin-top: -20px;
+}
+.frase:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: 30%;
+    transform: translateX(-100%);
+}
+
+.frase:nth-child(even) {
+    align-self: flex-end;
+    margin-right: 25%;
+    transform: translateX(100%);
+}
+.frase:nth-child(1) {
+    top: 10%; /* Adjust as needed */
+}
+
+.frase:nth-child(2) {
+    top: 40%; /* Adjust as needed */
+}
+
+.frase:nth-child(3) {
+    top: 65%; /* Adjust as needed */
+}
+
+.textos.show .frase {
+    transform: translateX(0);
+}
+
+.textos.show .frase:nth-child(1) { transition-delay: 0.1s; }
+.textos.show .frase:nth-child(2) { transition-delay: 0.2s; }
+.textos.show .frase:nth-child(3) { transition-delay: 0.3s; }
